@@ -8,13 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <UITextFieldDelegate>
 {
     NSTimeInterval startTime;
 }
 
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
 - (IBAction)timeStart:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *startButton;
+@property (strong, nonatomic) IBOutlet UITextField *inputTime;
+- (IBAction)endEditing:(id)sender;
 
 @end
 

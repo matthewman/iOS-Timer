@@ -14,6 +14,8 @@
 		347E52F01E68474800926C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347E52EE1E68474800926C95 /* Main.storyboard */; };
 		347E52F21E68474800926C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347E52F11E68474800926C95 /* Assets.xcassets */; };
 		347E52F51E68474800926C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347E52F31E68474800926C95 /* LaunchScreen.storyboard */; };
+		34B520AD1E6968B500999DF6 /* StopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B520AB1E6968B500999DF6 /* StopWatchViewController.m */; };
+		34B520AE1E6968B500999DF6 /* StopWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B520AC1E6968B500999DF6 /* StopWatchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		347E52F11E68474800926C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		347E52F41E68474800926C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		347E52F61E68474800926C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B520AA1E6968B500999DF6 /* StopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchViewController.h; sourceTree = "<group>"; };
+		34B520AB1E6968B500999DF6 /* StopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchViewController.m; sourceTree = "<group>"; };
+		34B520AC1E6968B500999DF6 /* StopWatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopWatchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,9 @@
 				347E52F31E68474800926C95 /* LaunchScreen.storyboard */,
 				347E52F61E68474800926C95 /* Info.plist */,
 				347E52E21E68474800926C95 /* Supporting Files */,
+				34B520AA1E6968B500999DF6 /* StopWatchViewController.h */,
+				34B520AB1E6968B500999DF6 /* StopWatchViewController.m */,
+				34B520AC1E6968B500999DF6 /* StopWatchViewController.xib */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B520AE1E6968B500999DF6 /* StopWatchViewController.xib in Resources */,
 				347E52F51E68474800926C95 /* LaunchScreen.storyboard in Resources */,
 				347E52F21E68474800926C95 /* Assets.xcassets in Resources */,
 				347E52F01E68474800926C95 /* Main.storyboard in Resources */,
@@ -159,6 +168,7 @@
 				347E52ED1E68474800926C95 /* SecondViewController.m in Sources */,
 				347E52E71E68474800926C95 /* AppDelegate.m in Sources */,
 				347E52EA1E68474800926C95 /* FirstViewController.m in Sources */,
+				34B520AD1E6968B500999DF6 /* StopWatchViewController.m in Sources */,
 				347E52E41E68474800926C95 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +326,7 @@
 				347E52FB1E68474800926C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
